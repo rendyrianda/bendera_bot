@@ -1,6 +1,6 @@
 # bendera_bot
 Author : Rendy Rianda
-Current Version : 1.0.2
+Current Version : 1.0.3
 
 ## == Change log ==
 ### 1.0.3
