@@ -9,6 +9,6 @@ Current Version : 1.0.2
 ### 1.0.2
 - Add more Response
 - Bug fix
-- Delete 'bendera' command
+- Delete 'cat' command
 ### 1.0.1
 - Add more response
