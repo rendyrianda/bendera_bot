@@ -9,6 +9,6 @@ Current Version : 1.0.3
 ### 1.0.2
 - Add more Response
 - Bug fix
-- Delete 'cat' command
+- Delete 'kucing' command
 ### 1.0.1
 - Add more response
