@@ -22,7 +22,7 @@ async def on_message(message):
             'bentar ingat-ingat dulu....',
             'mungkin ini : QnVrYW4gZmxhZ255YSBIQUhBSEFIQUhBSEFIQQo=',
             '```help : help\nabout : tentang bot\nFlag : ????```',
-            '```Version : 1.0.3\nAuthor : Rendy Rianda```',
+            '```Version : 1.0.3\nAuthor : Rendy Rianda\nRepo Github : https://github.com/rendyrianda/bendera_bot```',
             ]
     if message.content == 'flag':
         response = isi[random.randint(0,4)]
