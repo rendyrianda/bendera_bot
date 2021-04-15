@@ -23,7 +23,6 @@ async def on_message(message):
             'there is strange voice telling me bout this sequence of character \nQnVrYW4gZmxhZ255YSBIQUhBSEFIQUhBSEFIQQo=',
             '```help : help\nabout : tentang bot\nflag : ????```',
             '```Version : 1.0.3\nAuthor : Rendy Rianda\nRepo Github : https://github.com/rendyrianda/bendera_bot```',
-            'yes can you give me a fish??? i want a fish!',
             'meow','meowww','meowwww','meow meow',
             ]
     if message.content == 'flag':
@@ -35,10 +34,7 @@ async def on_message(message):
     if message.content == 'about':
         response = isi[6]
         await message.channel.send(response)
-    if message.content == 'are you hungry?':
-        response = isi[7]
-        await message.channel.send(response)
     else : #probably bad idea to put this but it's work fine
-        response = isi[random.randint(8,11)]
+        response = isi[random.randint(7,10)]
         await message.channel.send(response)
 client.run(TOKEN)
